@@ -9,6 +9,9 @@ import React, { useEffect, useState } from 'react';//Modo noche/dia
 
 import home from './home';
 import login from './login';
+import notFoundPage from './components/notFoundPage';
+import load from './components/load';
+
 
 function App() {
   return (
