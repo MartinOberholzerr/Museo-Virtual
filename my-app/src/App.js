@@ -1,5 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Login from './Login';
+
+const App = () => {
+  return <Login />;
+};
+
 
 function App() {
   return (
