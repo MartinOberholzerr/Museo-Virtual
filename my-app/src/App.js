@@ -28,5 +28,17 @@ const api = axios.create({
   baseURL: '-'
 });
 
+// Configuración de interceptores de solicitud y respuesta
+api.interceptors.request.use(
+  async (config) => {
+    const user = firebase.auth().currentUser;
+
+    if (user) {
+      const token = await user.getIdToken();
+      config.headers['Authorization'] = `Bearer ${token}`;
+    } else {
+      
+    }
+
 
 export default App;
