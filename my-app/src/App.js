@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+
 
 function App() {
   return (
@@ -21,5 +23,10 @@ function App() {
     </div>
   );
 }
+
+const api = axios.create({
+  baseURL: '-'
+});
+
 
 export default App;
