@@ -91,5 +91,15 @@ function App() {
     setMode(newMode);
     localStorage.setItem('mode', newMode);
   };
+  return (
+    <div className={`App ${mode}`}>
+      <h1>Aplicación</h1>
+      <button onClick={toggleMode}>Cambiar modo</button>
+      {/* Contennido */}
+    </div>
+  );
+}
+
+
 
 export default App;
