@@ -55,7 +55,20 @@ api.interceptors.request.use(
 
 
 firebase.initializeApp(firebaseConfig);
+function LoginPage() {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
 
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    try {
+      await firebase.auth().signInWithEmailAndPassword(email, password);
+      // Inicio de sesion exisoto
+    } catch (error) {
+      // Manejo de errores de inicio 
+      console.error(error);
+    }
+  };
 
 
 
