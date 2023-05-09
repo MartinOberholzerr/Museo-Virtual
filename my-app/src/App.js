@@ -54,4 +54,9 @@ api.interceptors.request.use(
 );
 
 
+firebase.initializeApp(firebaseConfig);
+
+
+
+
 export default App;
