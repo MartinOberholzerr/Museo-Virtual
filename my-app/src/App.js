@@ -4,6 +4,9 @@ import axios from 'axios';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
+
+import React, { useEffect, useState } from 'react';//Modo noche/dia
+
 import home from './home';
 import login from './login';
 
@@ -69,6 +72,24 @@ firebase.initializeApp(firebaseConfig);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
+//Configuracion de USUARIO, dia/noche
+function App() {
+  const [mode, setMode] = useState('');
 
+  useEffect(() => {
+    const savedMode = localStorage.getItem('mode');
+    if (savedMode) {
+      setMode(savedMode);
+    } else {
+      // Modo predeterminado
+      setMode('day');
+    }
+  }, []);
+
+  const toggleMode = () => {
+    const newMode = mode === 'day' ? 'night' : 'day';
+    setMode(newMode);
+    localStorage.setItem('mode', newMode);
+  };
 
 export default App;
