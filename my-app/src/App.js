@@ -2,11 +2,13 @@
 import './App.css';
 import React from 'react';
 
+import LoginForm from './Formulario';
+
 function App() {
   return (
-   
-   <Navbar/>
-   
+    <div className="App">
+      <LoginForm />
+    </div>
   );
 }
 
