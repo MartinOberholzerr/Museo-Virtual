@@ -1,16 +1,12 @@
 
-import './App.css';
-import React from 'react';
-
-import LoginForm from './Formulario';
+import React from "react";
+import {ButtonWithFunction} from "./Button"
 
 function App() {
   return (
-    <div className="App">
-      <LoginForm />
-    </div>
-  );
+    <ButtonWithFunction />
+   
+  )
 }
 
 export default App;
-
