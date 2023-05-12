@@ -1,13 +1,18 @@
-import React from 'react';
+import React from "react";
 
-function BotonBordo({ texto, onClick }) {
+function Botoncito() {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
   return (
-    <button
-      onClick={onClick}
-      className="bg-bordo-500 hover:bg-bordo-600 text-white font-bold py-2 px-4 rounded"
-    >
-    
-    </button>
+    <div>
+        <button
+        onClick={handleClick}
+        >
+        boton
+        </button>
+    </div>
   );
 }
-export default BotonBordo;
+
+export default Botoncito;
