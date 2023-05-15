@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.backgroundInicio{
+  background-image:url(./images/mnba-351x185.png);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  background-size: cover;   
+}
