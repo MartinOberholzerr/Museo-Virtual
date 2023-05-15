@@ -8,7 +8,7 @@ const ButtonMute = () => {
   };
 
   return (
-    <button onClick={handleMuteToggle}>
+    <button className='btn btn-success' onClick={handleMuteToggle}>
       {muted ? 'Unmute' : 'Mute'}
     </button>
   );

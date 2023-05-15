@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import SettingsButton from './SettingsButton';
 import StartMessage from './StartMessage';
-
+import ButtonMute from './components/buttonMute/buttonMute';
+import volumeSlider from './components/soundRegulator/volumeSlider'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import VolumeSlider from './components/soundRegulator/volumeSlider';
 
 function App() {
   const [showMessage, setShowMessage] = useState(false);
@@ -37,7 +39,8 @@ function App() {
       {showMessage && <StartMessage />}
       <SettingsButton onClick={handleButtonClick} />
       <div style={overlayStyle}></div>
-
+      <ButtonMute />
+      <VolumeSlider />
     </div>
     
   );
