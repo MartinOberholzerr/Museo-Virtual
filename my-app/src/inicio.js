@@ -1,22 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import './style.css';
+import './index.js'
 
 export function Inicio(){
     return (
-        <div className='Caja'>
-            <div className='Options'>
-                <button>Iniciar Sesion</button>
-                <button>Comenzar Experiencia</button>
-                <button>Ajustes</button>
-            </div>
-            <button>Modo noche</button>
-        </div>
+        <div class="login-page">
+  <div class="form">
+      
+    
+    <form class="login-form">
+    <button>Empezar experiencia</button>
+    
+      <button>Registrarse</button>
+      
+      <button>Configuracion</button>
+      
+      <button>Donaciones</button>
+      <p class="message">¿Buscas registrarte? <a href="#">Create an account</a></p>
+    </form>
+  </div>
+</div>
     )
 }
 
 export function Background(){
     return(
-        <div className='backgroundInicio'>
+        <div className='backgroundImage'>
             
         </div>
     )
