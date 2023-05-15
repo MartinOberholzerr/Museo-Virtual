@@ -22,7 +22,7 @@ body {
 .form {
   position: relative;
   z-index: 1;
-  background: #545454cd;
+  background: #545454db;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -45,7 +45,7 @@ body {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4c95af;
+  background: #8a3434;
   width: 100%;
   border: 0;
   padding: 15px;
