@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client';
 import './style.css';
 
 
-import {Background, Inicio} from './inicio'
+import {Background, Inicio, Switch} from './inicio'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,11 +12,14 @@ root.render(
     
     <Background/>
     <Inicio/>
-    
+    <Switch/>
   </React.StrictMode>
 );
 
 export default Inicio
+
+
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
