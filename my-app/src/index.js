@@ -12,7 +12,7 @@ root.render(
     
     <Background/>
     <Inicio/>
-    <Switch/>
+
   </React.StrictMode>
 );
 
