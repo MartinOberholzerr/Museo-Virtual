@@ -1,30 +1,31 @@
 .navbar-semi-bordeaux {
-    background-color: #a42119; /* Cambia el color a tu tono semi-burdeos preferido */
-    color: #ffffff; /* Cambia el color del texto a uno que contraste adecuadamente */
+    background-color: #c7c4c2;
+    color: #ffffff;
   }
-  .navbar-logo {
-    max-width: 100px; /* Ajusta el ancho máximo según tus necesidades */
-    height: auto; /* Ajusta la altura automáticamente según el ancho */
-    align-items: center;
-    justify-content: center;
+  .navbar-nav li > .navbar-brand{
+    max-width: 100px;
+    font-size: 30px;
+    margin: 0 50px ;
     transition: transform 0.3s ease;
   }
+  .navbar-nav li{
+    margin-right: 50px;
+  }
 
-  .navbar-logo:hover {
-    transform: scale(1.1); /* Ajusta la escala de agrandamiento según tu preferencia */
+  .navbar-brand:hover {
+    transform: scale(1.1); 
   }
   .nav-link-underline {
     width: 0;
     height: 2px;
-    background-color: wheat; /* Cambia el color del subrayado según tus necesidades */
-    transition: width 0.3s ease; /* Ajusta la duración de la transición según tu preferencia */
+    background-color: #291800;
+    transition: width 0.3s ease; 
   }
   
   .nav-link:hover .nav-link-underline {
     width: 100%;
   }
-  
-  .navbar-nav {
-    display: flex;
-    align-items: center;
+  .navbar-nav li a{
+    color: #291800;
+    font-size:large ;
   }

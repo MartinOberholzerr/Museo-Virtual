@@ -1,32 +1,43 @@
 import React from 'react';
-import logo from './assets/logo.png'
+
 import './navbar.css';
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-semi-bordeaux">
-     <div className="container d-flex justify-content-between ">
-        <a className="navbar-brand" href="/">
-          <img src={logo} alt="Logo de Mi Sitio" className="navbar-logo align-items-center" />
-        </a>
-        <ul className="navbar-nav ml-auto">
+      <div className="container d-flex justify-content-center align-items-center">
+        <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link text-white" href="/">
+            <a className="nav-link" href="/">
               Inicio
-            <div className="nav-link-underline"></div>
+              <div className="nav-link-underline"></div>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="/Representantes">
+            <a className="nav-link" href="/Representantes">
               Representantes
               <div className="nav-link-underline"></div>
-              </a>
+            </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link text-white" href="/Sobre nosotros">
+          <a className="navbar-brand" href="/">
+          M N B A
+         </a>
+         </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/Sobre nosotros">
               Sobre nosotros
-               <div className="nav-link-underline"></div></a>
+              <div className="nav-link-underline"></div>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/Sobre nosotros">
+              Sobre nosotros
+              <div className="nav-link-underline"></div>
+            </a>
           </li>
         </ul>
+        
       </div>
     </nav>
   );
