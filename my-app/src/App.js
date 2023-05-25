@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
-import SettingsButton from './SettingsButton';
+import SettingsButton from './components/buton/SettingsButton';
 import StartMessage from './StartMessage';
-import ButtonMute from './components/buttonMute/buttonMute';
-import volumeSlider from './components/soundRegulator/volumeSlider'
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import VolumeSlider from './components/soundRegulator/volumeSlider';
+
+import Navbar from './components/NavBar/Navbar';
 
 function App() {
+  
   const [showMessage, setShowMessage] = useState(false);
 
   const handleButtonClick = () => {
@@ -35,14 +37,15 @@ function App() {
     zIndex: -1, // Fondo negro semitransparente
   };
   return (
+    <div className="section-without-scroll">
+    <><Navbar />
     <div style={containerStyle}>
       {showMessage && <StartMessage />}
       <SettingsButton onClick={handleButtonClick} />
       <div style={overlayStyle}></div>
-      <ButtonMute />
-      <VolumeSlider />
+    </div></>
     </div>
-    
+ 
   );
 }
 
