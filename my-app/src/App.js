@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import SettingsButton from './components/buton/SettingsButton';
-import StartMessage from './StartMessage';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,12 +8,6 @@ import Navbar from './components/NavBar/Navbar';
 
 function App() {
   
-  const [showMessage, setShowMessage] = useState(false);
-
-  const handleButtonClick = () => {
-    setShowMessage(!showMessage); // Invierte el valor actual de showMessage
-  };
-
   const containerStyle = {
     position:'relative' ,
     display: 'flex',
@@ -37,14 +30,13 @@ function App() {
     zIndex: -1, // Fondo negro semitransparente
   };
   return (
-    <div className="section-without-scroll">
+    
     <><Navbar />
     <div style={containerStyle}>
-      {showMessage && <StartMessage />}
-      <SettingsButton onClick={handleButtonClick} />
+      <SettingsButton />
       <div style={overlayStyle}></div>
     </div></>
-    </div>
+   
  
   );
 }
