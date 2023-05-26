@@ -8,14 +8,14 @@ function Navbar() {
       <div className="container d-flex justify-content-center align-items-center">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="/">
-              Inicio
+            <a className="nav-link" href="/Contacto">
+              Contacto
               <div className="nav-link-underline"></div>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Representantes">
-              Representantes
+            <a className="nav-link" href="/Colecciones">
+              Colecciones
               <div className="nav-link-underline"></div>
             </a>
           </li>
@@ -25,14 +25,14 @@ function Navbar() {
          </a>
          </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Sobre nosotros">
-              Sobre nosotros
+            <a className="nav-link" href="/Artistas">
+              Articulos
               <div className="nav-link-underline"></div>
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/Sobre nosotros">
-              Sobre nosotros
+            <a className="nav-link" href="/Creditos">
+              Creditos
               <div className="nav-link-underline"></div>
             </a>
           </li>

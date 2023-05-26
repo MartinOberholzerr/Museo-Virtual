@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import SettingsButton from './components/buton/SettingsButton';
 
+import logo from './components/NavBar/assets/logo.png'; // Reemplaza el nombre y la extensión de archivo según corresponda
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -40,5 +41,6 @@ function App() {
  
   );
 }
-
+const favicon = document.querySelector('link[rel="icon"]');
+favicon.href = logo;
 export default App;

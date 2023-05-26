@@ -10,7 +10,7 @@ const SettingsButton = ({ onClick }) => {
         <p className='subText'>Ingresar a nuestra experiencia virtual</p>
       </div>
       <button className="btn btn custom-button" onClick={onClick} style={{ backgroundColor: '#ebebeb', borderRadius: '0', width: '200px' }}>
-        comenzar
+        Comenzar
       </button>
     </div>
   );
