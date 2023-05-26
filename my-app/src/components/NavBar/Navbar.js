@@ -9,13 +9,13 @@ function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="/Contacto">
-              Contacto
+              CONTACTO
               <div className="nav-link-underline"></div>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/Colecciones">
-              Colecciones
+              COLECCIONES
               <div className="nav-link-underline"></div>
             </a>
           </li>
@@ -26,13 +26,13 @@ function Navbar() {
          </li>
           <li className="nav-item">
             <a className="nav-link" href="/Artistas">
-              Articulos
+              ARTICULOS
               <div className="nav-link-underline"></div>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/Creditos">
-              Creditos
+              CREDITOS
               <div className="nav-link-underline"></div>
             </a>
           </li>
