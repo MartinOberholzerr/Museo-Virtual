@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SettingsButton from './components/buton/SettingsButton';
 
-import logo from './components/NavBar/assets/logo.png'; // Reemplaza el nombre y la extensión de archivo según corresponda
+import logo from './components/NavBar/assets/logo.png'; 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,7 +28,7 @@ function App() {
     width: '100%',
     height: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.2)',
-    zIndex: -1, // Fondo negro semitransparente
+    zIndex: -1, // Fondo negro transparente
   };
   return (
     
@@ -37,8 +37,7 @@ function App() {
       <SettingsButton />
       <div style={overlayStyle}></div>
     </div></>
-   
- 
+
   );
 }
 const favicon = document.querySelector('link[rel="icon"]');
