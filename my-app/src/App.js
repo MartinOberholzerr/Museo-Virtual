@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import SettingsButton from './components/buton/SettingsButton';
-
 import logo from './components/NavBar/assets/logo.png'; 
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Navbar from './components/NavBar/Navbar';
 
+import BottomBar from './components/BottomBar/BottomBar';
 function App() {
   
   const containerStyle = {
@@ -31,13 +29,14 @@ function App() {
     zIndex: -1, // Fondo negro transparente
   };
   return (
-    
-    <><Navbar />
+    <div>
+      <Navbar />
     <div style={containerStyle}>
       <SettingsButton />
       <div style={overlayStyle}></div>
-    </div></>
-
+    </div>
+      <BottomBar />
+    </div>
   );
 }
 const favicon = document.querySelector('link[rel="icon"]');

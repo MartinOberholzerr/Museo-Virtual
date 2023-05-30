@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './navbar.css';
 
 function Navbar() {
@@ -37,7 +36,6 @@ function Navbar() {
             </a>
           </li>
         </ul>
-        
       </div>
     </nav>
   );

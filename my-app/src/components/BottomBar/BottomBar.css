@@ -1,0 +1,26 @@
+.bottomBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #00000077;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  
+  .bottomBar-button {
+    margin: 0 5px;
+  }
+  
+  
+  .bottomBar.visible {
+    display: none;
+  }
+  
+  .bottomBar.hidden {
+    display: block;
+  }
+ 
