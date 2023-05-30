@@ -10,7 +10,7 @@ const BottomBar = () => {
 
   return (
     <div>
-      <div className={`btn bottomBar ${isVisible ? 'visible' : 'hidden'}`}>
+      <div className={`btn btn-warning bottomBar ${isVisible ? 'visible' : 'hidden'}`}>
      
       </div>
       <button className={`btn  bottom-toggle ${isVisible ? 'visible' : 'hidden'}`} onClick={toggleVisibility}>
