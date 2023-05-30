@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import { Route } from 'react-router-dom';
 import SettingsButton from './components/buton/SettingsButton';
 import logo from './components/NavBar/assets/logo.png'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/NavBar/Navbar';
 
 import BottomBar from './components/BottomBar/BottomBar';
+
 function App() {
   
   const containerStyle = {
