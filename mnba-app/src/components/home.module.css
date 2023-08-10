@@ -1,0 +1,38 @@
+/* home.module.css */
+
+/* Estilo para centrar verticalmente */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilo del cuadrado redondeado */
+.square {
+  width: 350px;
+  height: 350px;
+  background-color: #695746c2;
+  border-top-left-radius: 50%; /* Redondear la esquina superior izquierda */
+  border-top-right-radius: 50%; /* Redondear la esquina superior derecha */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para el contenido dentro del cuadrado */
+.innerContent {
+  text-align: center;
+  color: white;
+}
+
+/* Estilo para el botón */
+.innerContent button {
+  margin-top: 40px;
+  background-color: #f0e1e1;
+  color: #574235;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
