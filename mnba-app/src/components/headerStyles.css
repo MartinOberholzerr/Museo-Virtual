@@ -70,4 +70,7 @@ body {
   }
   
   /* Resto de tus estilos... */
+  .nav-list:hover {
+    text-decoration: underline;
+  }
   
