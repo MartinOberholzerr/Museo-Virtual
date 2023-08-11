@@ -1,4 +1,4 @@
-/* headerStyles.css */
+/* headerStyles.css Estilos del header.js y fondo de la pagina*/
 
 body {
   overflow: hidden;
@@ -20,6 +20,7 @@ body {
     font-size: 1.2rem;
     font-weight: lighter;
   }
+  /*-------------Media query--------------*/
   @media only screen and (max-width: 615px) {
     .nav-S{ margin-left: auto;
     color: #574235; 
@@ -55,6 +56,7 @@ body {
     }
    
   }
+   /*-------------Fin Media query--------------*/
   .nav-brand {
     margin-left: 2.7rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,8 +71,23 @@ body {
     margin: 0;
   }
   
-  /* Resto de tus estilos... */
-  .nav-list:hover {
-    text-decoration: underline;
+  /* ------------------------ */
+  .nav-list {
+    position: relative; 
+  }
+  
+  .nav-list::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    background-color:#695746; 
+    bottom: -2px; 
+    left: 0; 
+    transition: width 0.3s ease;
+  }
+  
+  .nav-list:hover::before {
+    width: 100%; 
   }
   

@@ -2,7 +2,7 @@ import React from 'react';
 import './headerStyles.css';
 
 const Header = () => {
-  const linkStyle = { color: '#573535' }; // Define el color para las fuentes de las listas y MNBA
+  const linkStyle = { color: '#4e3c30' }; // Define el color para las fuentes de las listas y MNBA
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#EBEBEE' }}>
