@@ -15,15 +15,50 @@ body {
   }
  
   .nav-S {
+    margin-left: 22%;
     color: #574235; 
     font-size: 1.2rem;
     font-weight: lighter;
   }
-  
-  .nav-brand {
-    margin-left: 2.6rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  @media only screen and (max-width: 615px) {
+    .nav-S{ margin-left: auto;
     color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 680px) {
+    .nav-S{ margin-left: auto;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 730px) {
+    .nav-S{ margin-left: auto;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .nav-S{ 
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+    .nav-separator {
+      margin-left: 0.5rem;
+      color: #574235; 
+      font-size: 1.2rem;
+      font-weight: lighter;
+    }
+   
+  }
+  .nav-brand {
+    margin-left: 2.7rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #573535;
   }
   
   /* Estilo para centrar verticalmente */
