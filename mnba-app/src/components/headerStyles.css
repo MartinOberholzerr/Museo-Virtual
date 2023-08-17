@@ -1,5 +1,5 @@
 /* headerStyles.css Estilos del header.js y fondo de la pagina*/
-
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
 body {
   overflow: hidden;
   height: 100vh;
@@ -59,7 +59,7 @@ body {
    /*-------------Fin Media query--------------*/
   .nav-brand {
     margin-left: 2.7rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bodoni Moda', serif;
  
   }
   
@@ -69,6 +69,7 @@ body {
     align-items: center;
     height: 100%;
     margin: 0;
+    
   }
   
   /* ------------------------ */

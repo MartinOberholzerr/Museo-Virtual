@@ -7,9 +7,9 @@ const Home = () => {
     <div className={styles.container}>
       <div className={styles.square}>
         <div className={styles.innerContent}>
-          <h2>Bienvenidos/as!</h2>
+          <h2>MNBA</h2>
           <p className='lead'>¡Listos para comenzar la experiencia virtual!</p>
-          <button className='btn btn-outline-dark'>Comenzar</button>
+          <button>Comenzar</button>
         </div>
       </div>
     </div>
