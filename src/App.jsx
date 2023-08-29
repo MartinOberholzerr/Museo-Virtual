@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+/*     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -18,7 +18,9 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+      <button className="btn btn-blue btn-blue:hover">Botón</button>
+    </div> */
+          <button className="btn btn-blue btn-blue:hover">Botón</button>
   );
 }
 
