@@ -1,6 +1,5 @@
 /* home.module.css */
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
-
 /* Estilo para centrar verticalmente */
 .container {
   display: flex;
@@ -14,10 +13,8 @@
   width: 350px;
   height: 350px;
   background-color: #5f462ccc;
-  border-top-left-radius: 50%;
-  /* Redondear la esquina superior izquierda */
-  border-top-right-radius: 50%;
-  /* Redondear la esquina superior derecha */
+  border-top-left-radius: 50%; /* Redondear la esquina superior izquierda */
+  border-top-right-radius: 50%; /* Redondear la esquina superior derecha */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,22 +24,19 @@
 /* Estilo para el contenido dentro del cuadrado */
 .innerContent {
   text-align: center;
-
-  color: #FFF;
+  
+  color:#FFF;
 }
-
 .innerContent p {
 
   font-size: 24px;
   text-align: center;
-  color: #ffffff;
+  color:#ffffff;
 }
-
-.innerContent h2 {
+.innerContent h2{
   font-family: 'Bodoni Moda', serif;
   font-size: 2.5rem;
 }
-
 /* Estilo para el botón */
 .innerContent button {
   margin-top: 50px;
@@ -52,14 +46,13 @@
   padding: 10px 45px;
   cursor: pointer;
 }
-
 .innerContent button:hover {
   transition: .2s;
   margin-top: 50px;
   background-color: #ffffff;
   color: #1d1c1b;
-
+  
   padding: 10px 45px;
-
+  border-radius: 5%;
   cursor: pointer;
 }
