@@ -100,3 +100,24 @@
         /* Una card por fila, ancho completo */
     }
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Estilo del cuadrado redondeado */
+  .square {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 60%;
+    background-color: #5f462ccc;
+    border-bottom-left-radius: 50%; /* Redondear la esquina superior izquierda */
+    border-bottom-right-radius: 50%; /* Redondear la esquina superior derecha */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
