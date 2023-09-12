@@ -22,14 +22,15 @@
 }
 
 .imagen-rojo {
-    width: 40%;
-    height: 470px;
-    bottom: 30%;
+    width: 35%;
+    height: 80%;
+    margin-top: 7%;
     background-color: #5f462ccc;
     border-bottom-left-radius: 50%; /* Redondear la esquina superior izquierda */
     border-bottom-right-radius: 50%; /* Redondear la esquina superior derecha */
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
