@@ -17,7 +17,7 @@ const Creditos = () => {
 
       <div className='container'>
           <div  className='img'>
-          <img src='https://www.cultura.gob.ar/media/uploads/51017288816_92a517b177_k.jpg' alt='card3' className='square' />
+          <img src='https://www.cultura.gob.ar/media/uploads/51017288816_92a517b177_k.jpg' alt='card3' className='imagen-rojo' />
           </div>
       </div>
     </div>
