@@ -27,6 +27,14 @@ const Creditos = () => {
           persona1 <br/>
           persona2 <br/>
           persona3 <br/>
+          persona4 <br/>
+          persona5 <br/>
+          persona6 <br/>
+          persona7 <br/>
+          persona8 <br/>
+          persona9 <br/>
+          persona10 <br/>
+
         </p>
       </div>
     </div>

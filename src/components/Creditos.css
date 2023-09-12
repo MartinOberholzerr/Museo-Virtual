@@ -1,9 +1,13 @@
 
+.contenedor{
+    background-color: #EBEBEE;
+}
+
 .Title {
     position: absolute;
     margin-top: 11%;
-    right: 31%;
-    color: #7e481c;
+    right: 28%;
+    color: #000000;
     font-family: serif;
     font-size: 270%;
 }
@@ -11,8 +15,8 @@
 .personas {
     position: absolute;
     margin-top: 16%;
-    right: 40.7%;
-    color: #7e481c;
+    right: 37%;
+    color: #000000;
     font-family: serif;
     font-size: 130%;
 }
@@ -22,7 +26,7 @@
     height: 80%;
     margin-top: 7%;
     left: 6%;
-    background-color: #5f462ccc;
+    background-color: #f0e1e1;
     border-bottom-left-radius: 50%; /* Redondear la esquina inferior izquierda */
     border-bottom-right-radius: 50%; /* Redondear la esquina inferior derecha */
     display: flex;
