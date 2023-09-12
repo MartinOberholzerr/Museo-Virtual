@@ -22,6 +22,13 @@ const Creditos = () => {
           <img src='https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg?w=920&h=517&crop=1' alt='foto2' className='imagen2' />
           </div>
       </div>
+      <div className='personas'>
+        <p>
+          persona1 <br/>
+          persona2 <br/>
+          persona3 <br/>
+        </p>
+      </div>
     </div>
   );
 };
