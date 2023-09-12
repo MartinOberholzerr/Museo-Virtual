@@ -1,0 +1,60 @@
+
+.contenedor{
+    background-color: #EBEBEE;
+}
+
+.Title {
+    position: absolute;
+    margin-top: 11%;
+    right: 28%;
+    color: #000000;
+    font-family: serif;
+    font-size: 270%;
+}
+
+.personas {
+    position: absolute;
+    margin-top: 16%;
+    right: 37%;
+    color: #000000;
+    font-family: serif;
+    font-size: 130%;
+}
+
+.imagen1 {
+    width: 37%;
+    height: 80%;
+    margin-top: 7%;
+    left: 6%;
+    background-color: #f0e1e1;
+    border-bottom-left-radius: 50%; /* Redondear la esquina inferior izquierda */
+    border-bottom-right-radius: 50%; /* Redondear la esquina inferior derecha */
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen2 {
+    width: 21%;
+    height: 60%;
+    margin-top: 5%;
+    left: 30%;
+    background-color: #5f462ccc;
+    border-top-left-radius: 50%; /* Redondear la esquina superior izquierda */
+    border-top-right-radius: 50%; /* Redondear la esquina superior derecha */
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Media query para hacer que las cards sean de ancho completo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        /* Una card por fila, ancho completo */
+    }
+}

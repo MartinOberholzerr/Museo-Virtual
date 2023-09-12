@@ -10,12 +10,20 @@ const Header = () => {
   
  const Header = location.pathname !== '/Contacto';
  const Header2 = location.pathname !== '/Colecciones';
+ const Header3 = location.pathname !== '/Artistas';
+ const Header4 = location.pathname !== '/Creditos';
  
  // Renderiza el Header solo si shouldShowHeader es verdadero
  if (!Header) {
    return null;
  }
  if (!Header2) {
+  return null;
+}
+if (!Header3) {
+  return null;
+}
+if (!Header4) {
   return null;
 }
   return (
@@ -51,14 +59,14 @@ const Header = () => {
               M N B A
             </a>
             <li className="nav-item nav-separator">
-              <a className="nav-link nav-list" href="#artistas" style={linkStyle}>
+            <Link to="/Artistas" className="nav-link nav-list" style={linkStyle}>
                 ARTISTAS
-              </a>
+            </Link>
             </li>
             <li className="nav-item nav-separator">
-              <a className="nav-link nav-list" href="#creditos" style={linkStyle}>
+            <Link to="/Creditos" className="nav-link nav-list" style={linkStyle}>
                 CRÉDITOS
-              </a>
+            </Link>
             </li>
           </ul>
         </div>
