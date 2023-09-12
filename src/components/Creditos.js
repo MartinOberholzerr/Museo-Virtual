@@ -8,9 +8,7 @@ const Creditos = () => {
   
   return (
     <div className='contenedor'>
-      <nav className='nav'>
-        <h1 className='Title'>CRÉDITOS</h1>
-      </nav>
+      <h1 className='Title'>CRÉDITOS</h1>
       <Link to='/' className='button-link'>
         <FontAwesomeIcon icon={faArrowLeft} className='icon' />
       </Link>
