@@ -21,13 +21,29 @@
     }
 }
 
-.imagen-rojo {
-    width: 35%;
+.imagen1 {
+    width: 37%;
     height: 80%;
     margin-top: 7%;
+    left: 6%;
     background-color: #5f462ccc;
     border-bottom-left-radius: 50%; /* Redondear la esquina superior izquierda */
     border-bottom-right-radius: 50%; /* Redondear la esquina superior derecha */
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen2 {
+    width: 20%;
+    height: 57%;
+    margin-top: 5%;
+    left: 28%;
+    background-color: #5f462ccc;
+    border-top-left-radius: 50%; /* Redondear la esquina superior izquierda */
+    border-top-right-radius: 50%; /* Redondear la esquina superior derecha */
     display: flex;
     position: absolute;
     flex-direction: column;

@@ -14,12 +14,12 @@ const Creditos = () => {
       </Link>
       <div className='container'>
           <div  className='img'>
-          <img src='https://www.cultura.gob.ar/media/uploads/51017288816_92a517b177_k.jpg' alt='foto1' className='imagen-rojo' />
+          <img src='https://www.elciudadanogba.com/wp-content/uploads/2016/12/Museo-adentro.jpg' alt='foto1' className='imagen1' />
           </div>
       </div>
       <div className='container'>
           <div  className='img'>
-          <img src='https://www.cultura.gob.ar/media/uploads/34195397795_8aa2428cfa_c.jpg' alt='foto2' className='imagen-escultura' />
+          <img src='https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg?w=920&h=517&crop=1' alt='foto2' className='imagen2' />
           </div>
       </div>
     </div>
