@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Conection from './components/Conection';
+import Creditos from './components/Creditos';
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route exact path="/contacto" element={<Contact />} />
           <Route exact path="/colecciones" element={<Conection />} />
+          <Route exact path="/creditos" element={<Creditos />} />
         </Routes>
       </div>
     </Router>
