@@ -7,8 +7,10 @@ import './Creditos.css';
 const Creditos = () => {
   
   return (
-    <div className='contenedor'>
-      <h1 className='Title'>CRÉDITOS</h1>
+    <div className='contenedor2'>
+      <div className='fondo'>
+      <h1 className='titulo'>CRÉDITOS</h1>
+      </div>
       <Link to='/' className='button-link'>
         <FontAwesomeIcon icon={faArrowLeft} className='icon' />
       </Link>
@@ -34,7 +36,6 @@ const Creditos = () => {
           persona8 <br/>
           persona9 <br/>
           persona10 <br/>
-
         </p>
       </div>
     </div>
