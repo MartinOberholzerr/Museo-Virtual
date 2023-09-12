@@ -1,24 +1,10 @@
-/* 
-.contenedor {
-    background-color: #E7D7C9;
-    height: 100vh;
-    position: relative;
-}
- */
+
 .Title {
     position: absolute;
     margin-top: 160px;
-    right: 35%;
+    right: 32%;
     color: #7e481c;
     font-family: serif;
-}
-
-/* Media query para hacer que las cards sean de ancho completo en pantallas pequeñas */
-@media (max-width: 768px) {
-    .card-container {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-        /* Una card por fila, ancho completo */
-    }
 }
 
 .imagen1 {
@@ -27,8 +13,8 @@
     margin-top: 7%;
     left: 6%;
     background-color: #5f462ccc;
-    border-bottom-left-radius: 50%; /* Redondear la esquina superior izquierda */
-    border-bottom-right-radius: 50%; /* Redondear la esquina superior derecha */
+    border-bottom-left-radius: 50%; /* Redondear la esquina inferior izquierda */
+    border-bottom-right-radius: 50%; /* Redondear la esquina inferior derecha */
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -37,10 +23,10 @@
 }
 
 .imagen2 {
-    width: 20%;
-    height: 57%;
+    width: 21%;
+    height: 60%;
     margin-top: 5%;
-    left: 28%;
+    left: 30%;
     background-color: #5f462ccc;
     border-top-left-radius: 50%; /* Redondear la esquina superior izquierda */
     border-top-right-radius: 50%; /* Redondear la esquina superior derecha */
@@ -49,4 +35,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Media query para hacer que las cards sean de ancho completo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        /* Una card por fila, ancho completo */
+    }
 }
