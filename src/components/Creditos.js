@@ -2,14 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import './Conection.css';
+import './Creditos.css';
 
 const Creditos = () => {
   
   return (
     <div className='contenedor'>
       <nav className='nav'>
-        <h1 className='Title'>COLECCIONES</h1>
+        <h1 className='Title'>CRÉDITOS</h1>
       </nav>
       <Link to='/' className='button-link'>
         <FontAwesomeIcon icon={faArrowLeft} className='icon' />
