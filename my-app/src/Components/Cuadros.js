@@ -14,9 +14,8 @@ function Cuadros(props){
                     <div className="image-title">{image.title}</div>
 
                 </div>
-            )
-
-            )}
-        </div>
-    )
-}
+      ))}
+      </div>
+    );
+  }
+  export default Cuadros;
