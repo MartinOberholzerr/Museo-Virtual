@@ -13,8 +13,5 @@ return(
     <button onClick={toggleVisibility}>Mostrar/ocultar barra</button>
 </div>
 );
-    
-
-
-
 }
+export default InteractiveBar;
