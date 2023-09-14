@@ -1,5 +1,6 @@
 import './App.css';
-import
+import InteractiveBar from './Components/InteractiveBar';
+
 function App() {
 
 }
