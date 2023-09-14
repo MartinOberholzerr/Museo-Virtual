@@ -1,0 +1,94 @@
+/* headerStyles.css Estilos del header.js y fondo de la pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
+body {
+  overflow: hidden;
+  height: 100vh;
+  background-image: url('https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg');
+  background-size: cover;
+  }
+  
+  .nav-separator {
+    margin-left: 2.5rem;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+ 
+  .nav-S {
+    margin-left: 22%;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  /*-------------Media query--------------*/
+  @media only screen and (max-width: 615px) {
+    .nav-S{ margin-left: auto;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 680px) {
+    .nav-S{ margin-left: auto;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 730px) {
+    .nav-S{ margin-left: auto;
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .nav-S{ 
+    color: #574235; 
+    font-size: 1.2rem;
+    font-weight: lighter;
+    }
+    .nav-separator {
+      margin-left: 0.5rem;
+      color: #574235; 
+      font-size: 1.2rem;
+      font-weight: lighter;
+    }
+   
+  }
+   /*-------------Fin Media query--------------*/
+  .nav-brand {
+    margin-left: 2.7rem;
+    font-family: 'Bodoni Moda', serif;
+ 
+  }
+  
+  /* Estilo para centrar verticalmente */
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+  /* ------------------------ */
+  .nav-list {
+    position: relative; 
+  }
+  
+  .nav-list::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    background-color:#695746; 
+    bottom: -2px; 
+    left: 0; 
+    transition: width 0.3s ease;
+  }
+  
+  .nav-list:hover::before {
+    width: 100%; 
+  }
+  
