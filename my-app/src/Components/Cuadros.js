@@ -1,4 +1,5 @@
 import React from 'react';
+import 'Cuadros.css';
 function Cuadros(props){
     const { images } = props;
     
