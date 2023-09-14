@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Conection from './components/Conection';
+import Artistas from './components/Artistas';
 import Creditos from './components/Creditos';
 function App() {
   return (
