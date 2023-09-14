@@ -9,7 +9,7 @@ const Creditos = () => {
   return (
     <div className='contenedor2'>
       <div className='fondo'>
-      <h1 className='titulo'>CRÉDITOS</h1>
+        <h1 className='titulo'>CRÉDITOS</h1>
       </div>
       <Link to='/' className='button-link'>
         <FontAwesomeIcon icon={faArrowLeft} className='icon' />
@@ -21,7 +21,7 @@ const Creditos = () => {
       </div>
       <div className='container'>
           <div  className='img'>
-          <img src='https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg?w=920&h=517&crop=1' alt='foto2' className='imagen2' />
+          <img src='https://images.adsttc.com/media/images/5e72/cb54/b357/65c4/5c00/0101/slideshow/Cassa_Di_Risparmio.jpg?1584581452' alt='foto2' className='imagen2' />
           </div>
       </div>
       <div className='personas'>
