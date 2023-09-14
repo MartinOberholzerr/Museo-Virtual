@@ -4,3 +4,11 @@
     flex-wrap: wrap;
     margin: 20px;
   }
+  .image-box {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  
