@@ -17,9 +17,9 @@ const Artistas = () => {
       <div className='centered-container'>
         <div className='card-container'>
           <div  className='card'>
-          <img src='https://th.bing.com/th/id/R.702f4962bdebb9e54c23fa0109ca18ba?rik=z1Z7IKWfj6%2bvrA&pid=ImgRaw&r=0' alt='card3' className='card-image' />
+          <img src='https://www.bellasartes.gob.ar/media/uploads/coleccion/11942.jpg' alt='card3' className='card-image' />
             <div className='card-content'>
-            <h3 className='card-title'>Amanecer en el Bosque</h3>
+            <h3 className='card-title'>América II</h3>
               <p className='card-description'> Esta pintura captura la belleza serena de un amanecer en el bosque. Los tonos suaves y cálidos del sol naciente iluminan el dosel del bosque, creando una atmósfera tranquila y mágica. Los detalles meticulosos de los árboles y las hojas hacen que esta obra sea una celebración</p>
             </div>
           </div>
