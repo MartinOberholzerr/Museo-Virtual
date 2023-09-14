@@ -8,8 +8,11 @@ function Cuadros(props){
             (
                 <div className='image-box'
                 key={index}>
+                   
                     <img src={image.url} alt={image.title}/>
-                    
+
+                    <div className="image-title">{image.title}</div>
+
                 </div>
             )
 
