@@ -76,19 +76,6 @@ export default class AddTutorial extends Component {
                                 name="title"
                             />
                         </div>
-
-                        <div className="form-group">
-                            <label htmlFor="description">Description</label>
-                            <textarea
-                                className="form-control"
-                                id="description"
-                                required
-                                value={this.state.description}
-                                onChange={this.onChangeDescription}
-                                name="description"
-                            />
-                        </div>
-
                         <button onClick={this.saveTutorial} className="btn btn-success">
                             Submit
                         </button>
