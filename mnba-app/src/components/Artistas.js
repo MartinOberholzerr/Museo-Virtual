@@ -31,10 +31,10 @@ const Artistas = () => {
             </div>
           </div>
           <div  className='card'>
-          <img src='https://th.bing.com/th/id/OIP.vHMlepemjnRJIL5Asr5WEQHaE7?pid=ImgDet&rs=1' alt='card2' className='card-image' />
+          <img src='https://upload.wikimedia.org/wikipedia/commons/c/c8/Roberto_Jacoby_en_la_presentaci%C3%B3n_de_%22Imaginaci%C3%B3n_Pol%C3%ADtica_-_Proyecto_Ballena_2023%22.jpg' alt='card2' className='card-image' />
             <div className='card-content'>
-            <h3 className='card-title'>Retrato a la concns</h3>
-              <p className='card-description'>En este retrato, el artista ha capturado la introspección y la serenidad de su sujeto. La mirada profunda y pensativa del retratado invita a reflexionar sobre los misterios de la mente humana. La paleta de colores suaves y la técnica detallada destacan la expresión facial.</p>
+            <h3 className='card-title'>Roberto Jacoby</h3>
+              <p className='card-description'>Nacimiento: 29 de julio de 1944. Buenos Aires - Argentina (79 años).<br/>Nacionalidad: argentina<br/>Ocupación:	Sociólogo, artista, letrista<br/>Distinciones: Beca Guggenheim - Primer Manifiesto del Arte y Los Medios. - Premio Nacional a la Trayectoria Artística (2018)</p>
             </div>
           </div>
         </div>
