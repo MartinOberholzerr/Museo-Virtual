@@ -24,10 +24,10 @@ const Artistas = () => {
             </div>
           </div>
           <div className='card'>
-          <img src='https://th.bing.com/th/id/R.55603848a0be32d6322a2ad9d29f428d?rik=HdTs1WJPu9mHMQ&riu=http%3a%2f%2f4.bp.blogspot.com%2f-sxuCZ8ugPm8%2fU3QWXB0WwJI%2fAAAAAAAA85Y%2frlyzKfJQvpk%2fs1600%2fcuadros-decorativos-de-abstractos-al-oleo.jpg&ehk=InpmtmSHliuZK6MPCFMUC%2boM9pw6C4JLZg%2bUz%2f8pU4s%3d&risl=&pid=ImgRaw&r=0' alt='card1' className='card-image' />
+          <img src='https://upload.wikimedia.org/wikipedia/commons/6/6e/Delia_Cancela.jpg' alt='card1' className='card-image' />
             <div className='card-content'>
-            <h3 className='card-title'>Abstracción en Azul</h3>
-              <p className='card-description'>Esta obra de arte abstracta utiliza una paleta de azules profundos y formas geométricas para evocar una sensación de calma y misterio. Las texturas y los tonos cambiantes invitan al espectador a explorar el mundo de la abstracción, donde la interpretación es libre y personal.</p>
+            <h3 className='card-title'>Delia Cancela</h3>
+              <p className='card-description'>Delia Cancela (nacida en 1940 en Buenos Aires, Argentina) es una artista pop y diseñadora de modas argentina. Vivió en Argentina, Nueva York, Londres y Paris, ciudades donde desarrolló exposiciones. Exhibiciones retrospectivas de sus trabajos y colaboraciones con Pablo Mesejean.</p>
             </div>
           </div>
           <div  className='card'>
