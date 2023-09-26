@@ -33,27 +33,29 @@
 }
 .card-container {
     display: flex;
-
     width: 70%;
     justify-content: center;
+    background-color: transparent;
     flex-wrap: nowrap;
     gap: 20px;
     padding: 0;
     box-sizing: border-box;
     
 }
-
+.card-content{
+    background-color: transparent;
+}
 /* Estilos para cada card */
 .card {
     flex: 1;
     min-width: 200px;
     max-width: 300px;
-    border: none;
-    border-radius: 8px;
+    border: none !important;
+   
     padding: 0px;
     text-align: center;
-    background-color: transparent;
     margin: 10px;
+    background-color: transparent !important;
 }
 
 .card-image {
