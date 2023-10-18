@@ -56,7 +56,7 @@ const Header = () => {
             </Link>
             </li>
             <li className="nav-item nav-separator">
-              <Link to="/login" className="nav-link nav-list" style={linkStyle}>
+              <Link to="/login" className="nav-link nav-list" style={{...linkStyle, borderRadius: '10px', border: '1px solid gray'}}>
                 CERRAR SESIÓN
               </Link>
             </li>
