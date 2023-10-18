@@ -7,29 +7,12 @@ const Header = () => {
   const linkStyle = { color: '#4e3c30' }; 
  // Verifica si la ubicación actual es /contacto
  const location = useLocation();
-  
- const Header = location.pathname !== '/Contacto';
- const Header2 = location.pathname !== '/Colecciones';
- const Header3 = location.pathname !== '/Artistas';
- const Header4 = location.pathname !== '/Creditos';
- const Header5 = location.pathname !== '/login';
- 
- // Renderiza el Header solo si shouldShowHeader es verdadero
- if (!Header) {
-   return null;
- }
- if (!Header2) {
-  return null;
-}
-if (!Header3) {
-  return null;
-}
-if (!Header4) {
-  return null;
-}
-if (!Header5) {
-  return null;
-}
+
+  const shouldShowHeader = !['/Contacto', '/Colecciones', '/Artistas', '/Creditos', '/login'].includes(location.pathname);
+
+  if (!shouldShowHeader) {
+    return null;
+  }
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#EBEBEE' }}>
       <div className="container d-flex justify-content-center align-items-center">
@@ -71,6 +54,11 @@ if (!Header5) {
             <Link to="/Creditos" className="nav-link nav-list" style={linkStyle}>
                 CRÉDITOS
             </Link>
+            </li>
+            <li className="nav-item nav-separator">
+              <Link to="/login" className="nav-link nav-list" style={linkStyle}>
+                CERRAR SESIÓN
+              </Link>
             </li>
           </ul>
         </div>
