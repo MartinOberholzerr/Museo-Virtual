@@ -1,11 +1,14 @@
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
+import Login from './components/Login/Login'
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Conection from './components/Conection';
 import Artistas from './components/Artistas';
 import Creditos from './components/Creditos';
+
 function App() {
   return (
     <Router>
@@ -13,6 +16,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />}/>
           <Route exact path="/contacto" element={<Contact />} />
           <Route exact path="/colecciones" element={<Conection />} />
           <Route exact path="/artistas" element={<Artistas />} />

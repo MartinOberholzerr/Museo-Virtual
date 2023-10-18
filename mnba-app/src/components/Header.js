@@ -12,6 +12,7 @@ const Header = () => {
  const Header2 = location.pathname !== '/Colecciones';
  const Header3 = location.pathname !== '/Artistas';
  const Header4 = location.pathname !== '/Creditos';
+ const Header5 = location.pathname !== '/login';
  
  // Renderiza el Header solo si shouldShowHeader es verdadero
  if (!Header) {
@@ -24,6 +25,9 @@ if (!Header3) {
   return null;
 }
 if (!Header4) {
+  return null;
+}
+if (!Header5) {
   return null;
 }
   return (
