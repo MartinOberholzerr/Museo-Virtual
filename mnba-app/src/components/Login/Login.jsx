@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import appFirebase from '../../firebase.js'
 import './Login.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGoogle,faGithub } from '@fortawesome/free-brands-svg-icons';
-import { Link, useNavigate } from 'react-router-dom';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 import { getAuth, signInWithEmailAndPassword, GithubAuthProvider, GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 const auth = getAuth(appFirebase);
@@ -36,7 +36,7 @@ function Login(props) {
       const provider = new GoogleAuthProvider();
       signInWithPopup(auth, provider)
         .then((result) => {
-          console.log(result.user);  // Puedes acceder a la información del usuario aquí
+          console.log(result.user);  
           navigate("/");
         }).catch((error) => {
           console.log(error.message);
