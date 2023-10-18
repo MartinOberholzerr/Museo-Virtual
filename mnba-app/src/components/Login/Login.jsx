@@ -55,12 +55,12 @@ function Login(props) {
             <label htmlFor="email" className="form-label">Ingrese email:</label>
             <input className='input-field' type='text' placeholder='Ingresar email' id='email' required/>
           </div>
-  
+          <hr className='line-separator'/>
           <div className="mb-3">
             <label htmlFor="password" className="form-label">Ingrese contraseña:</label>
             <input className='input-field' type={showPassword ? "text" : "password"} placeholder='Ingresar contraseña ' id='password' required/>
           </div>
-          <hr className='line-separator'/>
+          
           <button className='boton'>Inicia Sesion</button>
         </form>
   
