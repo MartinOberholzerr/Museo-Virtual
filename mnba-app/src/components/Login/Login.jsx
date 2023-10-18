@@ -42,8 +42,19 @@ function Login(props) {
           console.log(error.message);
         });
     };
-    
+    /* Codigo de github para despues
 
+    const signInWithGithub = () => {
+        const provider = new GithubAuthProvider();
+        signInWithPopup(auth, provider)
+          .then((result) => {
+            console.log(result.user);  // Puedes acceder a la información del usuario aquí
+            navigate("/Home");
+          }).catch((error) => {
+            console.log(error.message);
+          });
+      };
+    */
   
       return (
         <div className='d-flex d-flex justify-content-center align-items-center'>
