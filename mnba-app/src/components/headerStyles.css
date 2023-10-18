@@ -8,12 +8,22 @@ body {
   }
   
   .nav-separator {
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
     color: #574235; 
     font-size: 1.2rem;
     font-weight: lighter;
   }
- 
+  .nav-separator2 {
+    margin-left: 2.5rem;
+    color: #574235; 
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .SingOut:hover{
+    background-color: rgb(218, 208, 208);
+    border-radius: 5px !important;
+    transition: background-color 0.3s ease; 
+  }
   .nav-S {
     margin-left: 22%;
     color: #574235; 

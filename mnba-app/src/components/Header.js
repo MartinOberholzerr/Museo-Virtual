@@ -55,8 +55,8 @@ const Header = () => {
                 CRÉDITOS
             </Link>
             </li>
-            <li className="nav-item nav-separator">
-              <Link to="/login" className="nav-link nav-list" style={{...linkStyle, borderRadius: '10px', border: '1px solid gray'}}>
+            <li className="nav-item nav-separator2">
+              <Link to="/login" className="nav-link SingOut" style={{...linkStyle, borderRadius: '10px', border: '1px solid gray' , whiteSpace: 'nowrap'}}>
                 CERRAR SESIÓN
               </Link>
             </li>
