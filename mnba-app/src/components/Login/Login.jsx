@@ -4,32 +4,33 @@ import './Login.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 import { useNavigate } from 'react-router-dom';
+
 import { getAuth, signInWithEmailAndPassword, GithubAuthProvider, GoogleAuthProvider, signInWithPopup } from 'firebase/auth'
 const auth = getAuth(appFirebase);
 function Login(props) {
     const navigate = useNavigate();
     const [showPassword, setShowPassword] = useState(false);
+    
+  
+  
+    const togglePasswordVisibility = () => {
+      setShowPassword(!showPassword);
+    };
+  
     const functAutenticacion = async (e) =>{  
         e.preventDefault();
         const correo = e.target.email.value;
         const contraseña = e.target.password.value;
          
-        try {
+          try {
             await signInWithEmailAndPassword(auth, correo, contraseña);
             navigate("/");
             console.log("Iniciado sesion con exito!!")
-        } catch (error) {
-            // Comprueba el código de error
-            if (error.code === 'auth/wrong-password') {
-                alert('La contraseña es incorrecta');
-            } else if (error.code === 'auth/user-not-found') {
-                alert('El correo es incorrecto');
-            } else {
-                console.log(error.message);
-            }
-        }
+          } catch (error) {
+            alert ("El correo o la contraseña es incorrecta");
+          }
+        
     }
-   
   
     const signInWithGoogle = () => {
       const provider = new GoogleAuthProvider();
@@ -69,7 +70,6 @@ function Login(props) {
         </button>  
 
       </div>
-      
       </div>
     );
 }
