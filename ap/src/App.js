@@ -1,6 +1,7 @@
 import React from "react";
 import Loading from "./components/loading";
 import Vr from "./components/vr";
+import Moving from "./components/move";
 
 function App (){
     <div>
@@ -10,6 +11,7 @@ function App (){
   return(
     <div>
      <Vr/>
+     <Moving/>
     </div>
   )
 }
