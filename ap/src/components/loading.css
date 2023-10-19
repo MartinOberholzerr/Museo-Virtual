@@ -1,0 +1,9 @@
+.book {
+  --color: #f0d6c5f8;
+  --duration: 6.8s;
+  width: 32px;
+  height: 12px;
+  position: relative;
+  margin: 32px 0 0 0;
+  zoom: 1.5;
+}
