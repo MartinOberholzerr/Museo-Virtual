@@ -3,6 +3,8 @@ import './loading.css';
 
 
 function Loading(){
+    
+  return(
     <div class="book">
       <div class="inner">
         <div class="left"></div>
@@ -31,8 +33,6 @@ function Loading(){
       </ul>
 
     </div>
-  return(
-    <div></div>
   )
 };
   
