@@ -1,5 +1,15 @@
-.vr{
+.vr {
     width: 200vh;
     height: 90vh;
-    z-index: 100;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
+@media (max-width: 1400px) {
+    .vr{
+        width: 180vh;
+        height: 80vh;
+    }
+}
+
