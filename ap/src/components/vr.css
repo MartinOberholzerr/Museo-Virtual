@@ -13,3 +13,9 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .vr{
+        width: 170vh;
+        height: 70vh;
+    }
+}
