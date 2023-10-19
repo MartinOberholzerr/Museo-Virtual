@@ -10,13 +10,7 @@ const auth = getAuth(appFirebase);
 function Login(props) {
   const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
-
-
-
-  const togglePasswordVisibility = () => {
-    setShowPassword(!showPassword);
-  };
-
+  
   const functAutenticacion = async (e) => {
     e.preventDefault();
     const correo = e.target.email.value;
