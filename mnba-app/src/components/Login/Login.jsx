@@ -60,7 +60,7 @@ function Login(props) {
             <label htmlFor="email" className="form-label">Ingrese email:</label>
             <input className='input-field' type='text' placeholder='Ingresar email' id='email' required />
           </div>
-          <hr className='line-separator' />
+          
           <div className="mb-3">
             <label htmlFor="password" className="form-label">Ingrese contraseña:</label>
             <input className='input-field' type={showPassword ? "text" : "password"} placeholder='Ingresar contraseña ' id='password' required />
@@ -68,6 +68,7 @@ function Login(props) {
 
           <button className='boton'>Inicia Sesion</button>
         </form>
+        <hr className='line-separator' />
         <div className='ContenedorBtn'>
           <button onClick={signInWithGoogle} className='google-signin-button'>
             <FontAwesomeIcon icon={faGoogle} className='iconoG' />
