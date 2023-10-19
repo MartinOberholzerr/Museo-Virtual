@@ -3,18 +3,23 @@ import Loading from "./components/loading";
 import Vr from "./components/vr";
 import Moving from "./components/move";
 
+
+
 function App (){
     <div>
-    <Loading /> 
+    
     </div>
     
   return(
     <div>
      <Vr/>
      <Moving/>
+     
     </div>
+    
   )
 }
+
 
 
 export default App;
