@@ -1,3 +1,4 @@
+/* codigo de pruebA
 import { useState, useEffect } from 'react';
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import appFirebase from '../firebase';
@@ -12,3 +13,4 @@ export function useAuth() {
 
   return { user };
 }
+*/
