@@ -1,6 +1,6 @@
 import React from 'react';
 import './loading.css';
-import ('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
 
 function Loading(){
     <div class="book">
@@ -32,7 +32,7 @@ function Loading(){
 
     </div>
   return(
-    <div>hola</div>
+    <div></div>
   )
 };
   
