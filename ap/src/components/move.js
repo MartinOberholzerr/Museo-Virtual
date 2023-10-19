@@ -4,8 +4,8 @@ import './move.css';
 function Moving(){
     return(
     <div className='move'>
-        <button id="izquierda">Izquierda</button>
-    <button id="derecha">Derecha</button>
+        <button id="izquierdaa">Izquierda</button>
+        <button id="derechaa">Derecha</button>
     </div>
 )}
 
