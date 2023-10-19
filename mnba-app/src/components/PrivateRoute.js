@@ -2,12 +2,21 @@
 SI ES QUE NO ESTA REGISTRADO O SI NO INICIO SESION
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Navigate, Route } from 'react-router-dom';
 import { useAuth } from './Auth'; 
 
 function PrivateRoute({ path, element }) {
-  const { user } = useAuth();  
+  const { user, logout } = useAuth();  
+  const sessionTimeout = 60 * 15 * 1000; // 15 minutos
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      logout();
+    }, sessionTimeout);
+
+    return () => clearTimeout(timer);
+  }, [logout]);
 
   return (
     <Route
@@ -18,4 +27,5 @@ function PrivateRoute({ path, element }) {
 }
 
 export default PrivateRoute;
+
 */
