@@ -1,16 +1,9 @@
 import React from 'react';
 import './loading.css';
 
-const Loading = ({ children }) => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 5000); 
-  }, []);
-
-  return isLoading ? (
+function Loading(){
+    
+  return(
     <div class="book">
       <div class="inner">
         <div class="left"></div>
@@ -38,11 +31,8 @@ const Loading = ({ children }) => {
         <li></li>
       </ul>
 
-    </div> 
-  ) : (
-    children
-  );
+    </div>
+  )
 };
-
   
 export default Loading

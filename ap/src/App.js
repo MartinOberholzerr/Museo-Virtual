@@ -1,23 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 import Loading from "./components/loading";
-import Vr from "./components/vr";
-import Moving from "./components/move";
-
+//import Vr from "./components/vr";
+//import Moving from "./components/move";
 
 
 function App (){
-    <div>
-    
-    </div>
-    
+    const [Loading, setLoading] = useState(false);
+
+    const cambiarEstado=()=>{
+      setLoading(true);
+      setTimeout(()=>{
+        setLoading(false);
+      }, 5000);
+    }
+  if(Loading){
+    return(
+      <Loading></Loading>
+    )
+  }
+  else{
   return(
-    <div>
-     <Vr/>
-     <Moving/>
-     
-    </div>
     
+    <div>
+      <button onClick={()=>cambiarEstado()}>Reload</button>
+    </div>
   )
+}
 }
 
 
