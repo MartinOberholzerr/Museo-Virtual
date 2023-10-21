@@ -5,7 +5,7 @@ import Loading from "./components/loading";
 
 
 function App (){
-    const [Loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(false);
 
     const cambiarEstado=()=>{
       setLoading(true);
@@ -20,11 +20,10 @@ function App (){
   }
   else{
   return(
-    
     <div>
       <button onClick={()=>cambiarEstado()}>Reload</button>
     </div>
-  )
+  );
 }
 }
 
