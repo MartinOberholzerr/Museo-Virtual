@@ -1,12 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import './vr.css';
+
 
 function Vr() {
   return (
     <div>
-      
+      <Carousel infiniteLoop autoPlay showThumbs={false} showStatus={false}>
         <div>
           <iframe
             title="VR 1"
@@ -42,7 +42,7 @@ function Vr() {
             src="https://momento360.com/e/u/db23c8c5cfca4236912fe4e4d389b710?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
           ></iframe>
         </div>
-      
+      </Carousel>
     </div>
   );
 }
