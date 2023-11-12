@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
 }
 
 /* Estilo del cuadrado redondeado */
@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  left: 30%;
 }
 
 /* Estilo para el contenido dentro del cuadrado */
@@ -55,4 +56,18 @@
   padding: 10px 45px;
   border-radius: 5%;
   cursor: pointer;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .square {
+  margin-bottom: 50%;
+  }
 }

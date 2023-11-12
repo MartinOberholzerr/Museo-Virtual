@@ -16,11 +16,11 @@ const Contact = () => {
           <p className="overlay-subtext">Gracias por visitar nuestra experiencia virtual</p>
         </div>
         
-        <img src="https://scontent.faep9-1.fna.fbcdn.net/v/t1.6435-9/53152826_1906868212769969_7942975593665003520_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=nyEfROJyOBkAX9ymATL&_nc_ht=scontent.faep9-1.fna&oh=00_AfCpclDNGsL6usqWfnGdWtA_FFxEfQzg3wDvMAiV-ovT3Q&oe=650500C2" alt="Left" />
+        <img src="https://scontent-eze1-1.xx.fbcdn.net/v/t39.30808-6/303162785_5110255232431235_6571723615263869434_n.jpg?stp=cp0_dst-jpg_e15_p240x240_q65&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ef-0ozjHOKUAX-oxwxC&_nc_ht=scontent-eze1-1.xx&oh=00_AfDXlp0WXTP4Gxg5gjaxukhLPy3a1sKsAsf4NInF-BpRMg&oe=6554AD80" alt="Left" />
         <button className='button'>Contactar</button>
       </div>
       <div className="right-side">
-        <img src="https://scontent.faep9-2.fna.fbcdn.net/v/t31.18172-8/10669218_578231185633685_8003138082043079964_o.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9267fe&_nc_ohc=fzGXiAHQp04AX9xiLG5&_nc_ht=scontent.faep9-2.fna&oh=00_AfCnxFC6dospQmlWTgtbxI8HJGzJIiO_qACOyvtnQJwJSQ&oe=6504F99B" alt="Right" />
+        <img src="https://saltandomurosdotorg.files.wordpress.com/2013/01/mnba-neuquc3a9n.jpg" alt="Right" />
       </div>
     </div>
   );

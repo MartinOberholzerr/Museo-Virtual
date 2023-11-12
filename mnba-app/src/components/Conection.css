@@ -13,7 +13,7 @@
     background-color: #ebebeb;
     text-align: center;
     justify-content: center;
-
+    z-index: 60;
 }
 
 .Title {
@@ -80,6 +80,7 @@
     transform: scale(1.1);
     cursor: pointer; 
     }
+
 .card-title {
     margin-top: 20px;
     font-family: serif;
@@ -90,15 +91,133 @@
     margin-top: 8px;
     color: #553b16;
     font-family: serif;
-   
     font-weight: 100;
 }
 
 
-/* Media query para hacer que las cards sean de ancho completo en pantallas pequeñas */
-@media (max-width: 768px) {
-    .card-container {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-        /* Una card por fila, ancho completo */
+/* Media query para pantallas pequeñas (celulares) */
+@media (max-width: 375px){
+        .contenedor {
+            background-color: #E7D7C9;
+            height: 100vh;
+            position: relative;
+        }
+    
+        .centered-container {
+            flex-direction: column; /* Apila los elementos verticalmente */
+            height: auto; /* Ajusta la altura según el contenido */
+        }
+    
+        .nav-container {
+            margin-bottom: 20px; /* Añade un margen en la parte inferior */
+        }
+    
+        .nav {
+            position: absolute;
+            width: 100%;
+            height: 10rem; /* Ajusta la altura según el contenido */
+            background-color: #ebebeb;
+            text-align: center;
+            justify-content: center;
+            padding: 15px; /* Añade espacio alrededor del contenido */
+            margin-left: 12px;
+            box-sizing: border-box; /* Incluye el espacio de relleno en el tamaño total */
+        }
+    
+        .Title-container {
+            margin-bottom: 20px; /* Añade un margen en la parte inferior */
+        }
+    
+        .Title {
+            margin-top: 25px;
+            color: #7e481c;
+            font-family: serif;
+        }
+    
+        .card-container {
+            position: absolute;
+            width: 90%; /* Ajusta el ancho del contenedor de cards */
+            margin: 0; /* Centra el contenedor horizontalmente */
+            margin-top: 30px;
+            margin-bottom: 0px;
+            flex-direction: column; /* Apila las cards verticalmente */
+            align-items: center; /* Centra las cards verticalmente */
+            overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+            max-height: 70vh; /* Ajusta la altura máxima según sea necesario */
+            padding-top: 60rem;
+        }
+    
+        .card {
+            width: 100%; /* Ocupa el 100% del ancho */
+            margin-bottom: 40px; /* Añade espacio entre las cards */
+        }
+
+        .card-description {
+            margin-top: 8px;
+            color: #553b16;
+            font-family: serif;
+            font-weight: 100;
+        }
+
+        .card-content{
+            background-color: transparent;
+        }
     }
-}
+  
+  /* Media query para pantallas pequeñas (tablets) */
+  @media (max-width: 820px) and ((min-width: 376px)){
+        .contenedor {
+            background-color: #E7D7C9;
+            height: 100vh;
+            position: relative;
+        }
+    
+        .centered-container {
+            flex-direction: column; /* Apila los elementos verticalmente */
+            height: auto; /* Ajusta la altura según el contenido */
+        }
+    
+        .nav-container {
+            margin-bottom: 20px; /* Añade un margen en la parte inferior */
+        }
+    
+        .nav {
+            width: 100%;
+            height: 10rem; /* Ajusta la altura según el contenido */
+            background-color: #ebebeb;
+            text-align: center;
+            justify-content: center;
+            padding: 15px; /* Añade espacio alrededor del contenido */
+            margin-left: 12px;
+            box-sizing: border-box; /* Incluye el espacio de relleno en el tamaño total */
+        }
+    
+        .Title-container {
+            margin-bottom: 20px; /* Añade un margen en la parte inferior */
+        }
+    
+        .Title {
+            margin-top: 25px;
+            color: #7e481c;
+            font-family: serif;
+        }
+    
+        .card-container {
+            position: absolute;
+            width: 90%; /* Ajusta el ancho del contenedor de cards */
+            margin: 0; /* Centra el contenedor horizontalmente */
+            margin-top: 30px;
+            margin-bottom: 0px;
+            flex-direction: column; /* Apila las cards verticalmente */
+            align-items: center; /* Centra las cards verticalmente */
+            overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando sea necesario */
+            max-height: 70vh; /* Ajusta la altura máxima según sea necesario */
+            padding-top: 36rem;
+            z-index: 60;
+        }
+    
+        .card {
+            width: 100%; /* Ocupa el 100% del ancho */
+            margin: 10px 0; /* Añade espacio entre las cards */
+        }
+    }

@@ -8,7 +8,7 @@ body {
   }
   
   .nav-separator {
-    margin-left: 1.5rem;
+    margin-left: 2.8rem;
     color: #574235; 
     font-size: 1.2rem;
     font-weight: lighter;
@@ -25,11 +25,12 @@ body {
     transition: background-color 0.3s ease; 
   }
   .nav-S {
-    margin-left: 22%;
+    margin-left: 18%;
     color: #574235; 
     font-size: 1.2rem;
     font-weight: lighter;
   }
+  
   /*-------------Media query--------------*/
   @media only screen and (max-width: 615px) {
     .nav-S{ margin-left: auto;
@@ -102,3 +103,23 @@ body {
     width: 100%; 
   }
   
+  /* Media query para pantallas pequeñas */
+@media only screen and (max-width: 425px) {
+  .nav-S {
+    margin-left: auto;
+    color: #574235; 
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+  .nav-separator {
+    margin-left: 0.5rem;
+    color: #574235; 
+    font-size: 1rem;
+    font-weight: lighter;
+  }
+}
+
+.nav-brand {
+  margin-left: 2.7rem;
+  font-family: 'Bodoni Moda', serif;
+}
