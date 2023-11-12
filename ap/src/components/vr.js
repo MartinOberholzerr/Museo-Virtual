@@ -15,36 +15,23 @@ function Vr() {
     height: '80vh', // Ajusta el valor según tus necesidades para aumentar la altura de las imágenes
   };
 
+  const controlDotsStyle = {
+    display: 'none', // Inicialmente oculta la lista de control de puntos
+  };
+
   return (
     <div style={containerStyle}>
       <Carousel
         style={{ width: '80%' }}
         infiniteLoop
-        autoPlay
         showThumbs={false}
         showStatus={false}
       >
         <div>
           <iframe
-            title="VR 1"
+            title="VR 5"
             className="vr"
-            src="https://momento360.com/e/u/a194b404d22649f0b45bfce8a932d458?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
-            style={imageStyle}
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            title="VR 2"
-            className="vr"
-            src="https://momento360.com/e/u/0897fe54100b4566b74745167a58f403?utm_campaign=embed&utm_source=other&heading=108.87&pitch=-6.04&field-of-view=75&size=medium&display-plan=true"
-            style={imageStyle}
-          ></iframe>
-        </div>
-        <div>
-          <iframe
-            title="VR 3"
-            className="vr"
-            src="https://momento360.com/e/u/6c2a1951988244a58e16d3be28e4e00c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+            src="https://momento360.com/e/u/db23c8c5cfca4236912fe4e4d389b710?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
             style={imageStyle}
           ></iframe>
         </div>
@@ -58,13 +45,30 @@ function Vr() {
         </div>
         <div>
           <iframe
-            title="VR 5"
+            title="VR 3"
             className="vr"
-            src="https://momento360.com/e/u/db23c8c5cfca4236912fe4e4d389b710?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+            src="https://momento360.com/e/u/6c2a1951988244a58e16d3be28e4e00c?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+            style={imageStyle}
+          ></iframe>
+        </div>
+        <div>
+          <iframe
+            title="VR 2"
+            className="vr"
+            src="https://momento360.com/e/u/0897fe54100b4566b74745167a58f403?utm_campaign=embed&utm_source=other&heading=108.87&pitch=-6.04&field-of-view=75&size=medium&display-plan=true"
+            style={imageStyle}
+          ></iframe>
+        </div>
+        <div>
+          <iframe
+            title="VR 1"
+            className="vr"
+            src="https://momento360.com/e/u/a194b404d22649f0b45bfce8a932d458?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
             style={imageStyle}
           ></iframe>
         </div>
       </Carousel>
+      <ul className='control-dots' style={controlDotsStyle}></ul>
     </div>
   );
 }
