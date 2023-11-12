@@ -68,7 +68,7 @@ function Vr() {
           ></iframe>
         </div>
       </Carousel>
-      <ul className='control-dots' style={controlDotsStyle}></ul>
+      
     </div>
   );
 }
