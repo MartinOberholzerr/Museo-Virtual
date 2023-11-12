@@ -2,11 +2,24 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-
 function Vr() {
+  const containerStyle = {
+    width: '100%', // Establecer el ancho al 100% de la pantalla
+    height: '100vh', // Establecer la altura al 100% de la pantalla
+    display: 'flex',
+    alignItems: 'center', // Centrar verticalmente el contenido
+    justifyContent: 'center', // Centrar horizontalmente el contenido
+  };
+
   return (
-    <div>
-      <Carousel infiniteLoop autoPlay showThumbs={false} showStatus={false}>
+    <div style={containerStyle}>
+      <Carousel
+        style={{ width: '100%', height: '100%' }}
+        infiniteLoop
+        autoPlay
+        showThumbs={false}
+        showStatus={false}
+      >
         <div>
           <iframe
             title="VR 1"
