@@ -97,9 +97,26 @@
     color: #553b16;
     font-family: serif;
     font-weight: 100;
-  
-    /* Media queries para adaptar la descripción de la card a diferentes tamaños de pantalla */
-    @media (max-width: 768px) {
-      font-size: 14px;
-    }
+
+    /* Media query para hacer que el diseño sea responsive en dispositivos pequeños */
+@media only screen and (max-width: 768px) {
+  /* Estilos para el título en dispositivos pequeños */
+  .titulo {
+      font-size: 180%; /* Tamaño de fuente reducido */
+      margin-top: 8%; /* Margen superior reducido */
   }
+
+  /* Estilos para la lista de personas en dispositivos pequeños */
+  .personas {
+      font-size: 110%; /* Tamaño de fuente reducido */
+      margin-top: 10%; /* Margen superior reducido */
+  }
+
+  /* Estilos para las imágenes en dispositivos pequeños */
+  .imagen1, .imagen2 {
+      width: 100%; /* Cambiado para ocupar el ancho completo del contenedor */
+      height: auto; /* Para mantener la proporción original de la imagen */
+      margin-top: 7%;
+      border-radius: 50%;
+  }
+}
