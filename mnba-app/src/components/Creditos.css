@@ -16,9 +16,7 @@
 }
 
 .personas {
-    position: absolute;
     margin-top: 16%;
-    right: 37%;
     color: #000000;
     font-family: serif;
     font-size: 130%;
@@ -55,10 +53,22 @@
 }
 
 /* Media query para hacer que las cards sean de ancho completo en pantallas pequeñas */
-@media (max-width: 768px) {
-    .card-container {
-        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
-        /* Una card por fila, ancho completo */
-    }
+@media (max-width: 768px){
+
+titulo {
+    font-size: 180%; /* Tamaño de fuente reducido */
+    margin-top: 8%; /* Margen superior reducido */
 }
+
+.personas {
+    font-size: 110%; /* Tamaño de fuente reducido */
+    margin-top: 10%; /* Margen superior reducido */
+}
+}
+
+
+
+
+
+
 
