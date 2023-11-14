@@ -709,12 +709,12 @@ html {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgba(134, 134, 134, 0.382);
+  background-color: rgba(255, 255, 255, 0.743);
 
 }
 
 .book {
-  --color: #970000f8;
+  --color: #d60202f8;
   --duration: 6.8s;
   width: 32px;
   height: 12px;
