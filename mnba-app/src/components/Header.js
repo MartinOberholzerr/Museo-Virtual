@@ -8,7 +8,7 @@ const Header = () => {
  // Verifica si la ubicación actual es /contacto
  const location = useLocation();
 
-  const shouldShowHeader = !['/Contacto', '/Colecciones', '/Artistas', '/Creditos', '/login'].includes(location.pathname);
+  const shouldShowHeader = !['/Contacto', '/Colecciones', '/Artistas', '/login'].includes(location.pathname);
 
   if (!shouldShowHeader) {
     return null;

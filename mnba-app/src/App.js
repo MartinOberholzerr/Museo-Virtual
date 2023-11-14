@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import Conection from './components/Conection';
 import Artistas from './components/Artistas';
-import Creditos from './components/Creditos';
+
 import Vr from './components/vr/vr';
 import Loading from './components/vr/loading';
 import './App.css'; // Importa tus estilos principales aquí
@@ -38,7 +38,7 @@ function App() {
             <Route exact path="/contacto" element={<Contact />} />
             <Route exact path="/colecciones" element={<Conection />} />
             <Route exact path="/artistas" element={<Artistas />} />
-            <Route exact path="/creditos" element={<Creditos />} />
+            
           </Routes>
         )}
       </div>
