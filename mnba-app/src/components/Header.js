@@ -50,11 +50,7 @@ const Header = () => {
                 ARTISTAS
             </Link>
             </li>
-            <li className="nav-item nav-separator">
-            <Link to="/Creditos" className="nav-link nav-list" style={linkStyle}>
-                CRÉDITOS
-            </Link>
-            </li>
+            
             <li className="nav-item nav-separator2">
               <Link to="/login" className="nav-link SingOut" style={{...linkStyle, borderRadius: '10px', border: '1px solid gray' , whiteSpace: 'nowrap'}}>
                 CERRAR SESIÓN
