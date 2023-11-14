@@ -9,7 +9,7 @@ const Home = () => {
         <div className={styles.innerContent}>
           <h2>MNBA</h2>
           <p className='lead'>¡Listos para comenzar la experiencia virtual!</p>
-          <link to='/vr'>Comenzar</link>
+          <Link to='/vr'>Comenzar</Link>
         </div>
       </div>
     </div>
