@@ -14,6 +14,7 @@ function Vr() {
   const imageStyle = {
     height: '80vh', // Ajusta el valor según tus necesidades para aumentar la altura de las imágenes
     Zindex: '999',
+    background: 'rgba(0, 0, 0, 0.7)',
   };
 
   const controlDotsStyle = {
