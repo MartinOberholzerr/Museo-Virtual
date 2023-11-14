@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/colecciones" element={<Conection />} />
           <Route exact path="/artistas" element={<Artistas />} />
           <Route exact path="/creditos" element={<Creditos />} />
-          <Route exact path="/creditos" element={<Creditos />} />
+          
           
           <Route exact path="/vr" element={<Vr />} /> 
           <Route exact path="/loading" element={<Loading />} />
