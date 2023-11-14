@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Conection from './components/Conection';
 import Artistas from './components/Artistas';
 import Creditos from './components/Creditos';
+
+import Vr from './components/vr/vr';
 //import PrivateRoute from './components/PrivateRoute'; 
 
 function App() {
@@ -21,6 +23,7 @@ function App() {
           <Route exact path="/colecciones" element={<Conection />} />
           <Route exact path="/artistas" element={<Artistas />} />
           <Route exact path="/creditos" element={<Creditos />} />
+          <Route exact path="/vr" element={<Vr />} />
         </Routes>
       </div>
     </Router>
