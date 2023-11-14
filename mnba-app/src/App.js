@@ -17,13 +17,14 @@ function App() {
       <div>
         <Header />
         <Routes>
+        <Route exact path="/vr" element={<Vr />} />
           <Route path="/login" element={<Login />}/>
           <Route path="/" element={<Home />} />
           <Route exact path="/contacto" element={<Contact />} />
           <Route exact path="/colecciones" element={<Conection />} />
           <Route exact path="/artistas" element={<Artistas />} />
           <Route exact path="/creditos" element={<Creditos />} />
-          <Route exact path="/vr" element={<Vr />} />
+          
         </Routes>
       </div>
     </Router>
