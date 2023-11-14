@@ -8,12 +8,20 @@ function Vr() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: 'rgba(255, 255, 255, 1)', // Color blanco con 0 opacidad
+
+    
+
+    
 
   };
 
   const imageStyle = {
     height: '80vh', // Ajusta el valor según tus necesidades para aumentar la altura de las imágenes
     Zindex: '999',
+    
+
+    
   };
 
   const controlDotsStyle = {
