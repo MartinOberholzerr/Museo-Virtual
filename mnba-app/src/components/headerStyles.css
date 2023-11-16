@@ -1,12 +1,6 @@
 /* headerStyles.css Estilos del header.js y fondo de la pagina */
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&display=swap');
 
-body {
-  overflow: hidden;
-  height: 100vh;
-  background-image: url('https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg');
-  background-size: cover;
-}
 
 .nav-separator,
 .nav-separator2,
@@ -112,4 +106,10 @@ body {
     margin-left: 0.5rem;
     font-size: 1rem;
   }
+}
+body {
+  overflow: hidden;
+  height: 100vh;
+  background-image: url('https://www.rionegro.com.ar/wp-content/uploads/2023/04/museo-1.jpg');
+  background-size: cover;
 }
