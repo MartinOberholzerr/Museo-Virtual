@@ -1,3 +1,8 @@
 .vr{
     z-index: 1000;
+    background-color: rgba(240, 248, 255, 0.006);
+}
+
+canvas{
+    background-color: rgba(240, 248, 255, 0.001);
 }

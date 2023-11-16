@@ -8,14 +8,18 @@ function Vr() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 1)', // Color blanco con 0 opacidad
+    background: '#ffff'
 
+    
   };
+  
 
   const imageStyle = {
     height: '80vh', // Ajusta el valor según tus necesidades para aumentar la altura de las imágenes
-    Zindex: '999',
+    zIndex: '999', // Corrected the capitalization of 'Zindex'
+    opacity: 1 // Set opacity to 1 for no transparency
   };
+  
 
   const controlDotsStyle = {
     display: 'none', // Inicialmente oculta la lista de control de puntos
