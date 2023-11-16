@@ -38,7 +38,7 @@ function Vr() {
           <iframe
             title="VR 5"
             className="vr"
-            src="https://momento360.com/e/u/db23c8c5cfca4236912fe4e4d389b710?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+            src="https://momento360.com/e/u/f1564683d9d3481393355602681e173f?utm_campaign=embed&utm_source=other&size=medium&display-plan=truehttps://momento360.com/e/u/db23c8c5cfca4236912fe4e4d389b710?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
             style={imageStyle}
           ></iframe>
         </div>
